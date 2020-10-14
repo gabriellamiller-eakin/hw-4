@@ -1,0 +1,25 @@
+#time-display { 
+
+    font-family: 'Chilanka', cursive;
+    font-size: 30px;
+    position: fixed;
+    top: 0px; 
+    right: 60px;
+}
+
+#highscore-display {
+
+    font-family: 'Chilanka', cursive;
+    font-size: 30px;
+    position: fixed;
+    top: 0px; 
+    left: 10px; 
+}
+
+h1 {
+    text-align: center;
+}
+
+#question-display {
+    text-align: center;
+}

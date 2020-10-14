@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz!</title>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<link rel = "stylesheet" type="text/css" href="styles.css">
+<!-- linking bootstrap -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<!-- linking google fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class= "col-md-6">
+      <p id="highscore-display"> highscore:</p>
+      </div>
+
+      <div class= "col-md-6">
+        <p id="time-display">time:</p> 
+      </div>
+    </div>
+  </div>
+
+  <br> 
+  <br>
+  <br>
+
+    <div class= "container">
+      <div class = "row">
+      <div class="col-md-12">
+        <h1> Coding quiz challenge! </h1>
+        <p id="question-display">Please press the button below to start your timed coding quiz. Try your best to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your time by 10 seconds!</p>
+        <div id="options-display"></div>
+        <button id="start" style="position: relative; left:450px;"  type="button" class="btn btn-success btn-lg" data-toggle="button" aria-pressed="true">Start Quiz!</button>
+      </div>
+      </div>
+    </div>
+  
+    
+</body>
+
+
+<script src="script.js"></script>
+</html>
